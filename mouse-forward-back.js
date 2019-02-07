@@ -1,7 +1,5 @@
 'use strict';
 
-if (process.platform !== 'linux') return;
-
 var mouseForwardBack = require('bindings')('mouse-forward-back');
 
 module.exports = {
